@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Hello There.."
+            android:textSize="56dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:id="@+id/reg_email"
+            android:hint="Enter the Email"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+
+            android:drawablePadding="10dp"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="30dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:id="@+id/reg_mobile"
+            android:hint="Enter the Mobile Number"
+            android:drawableLeft="@drawable/ic_baseline_contact_phone_24"
+            android:drawablePadding="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+
+
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+
+            android:background="@drawable/edittextshape"
+            android:layout_marginTop="30dp"
+            android:inputType="number" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:id="@+id/reg_password"
+            android:hint="Enter the Password"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:drawablePadding="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:ems="10"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edittextshape"
+            android:layout_marginTop="30dp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_submit"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/aclonica"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Do you have an account? Sign In"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup_report_tv"
+            android:fontFamily="@font/aclonica"
+            android:text=""
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
