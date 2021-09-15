@@ -5,6 +5,8 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.Gravity;
@@ -20,6 +22,7 @@ public class EntDashboard extends AppCompatActivity {
     public DrawerLayout drawerLayout;
     public ActionBarDrawerToggle actionBarDrawerToggle;
     NavigationView navigationView;
+    RecyclerView rcv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,8 @@ public class EntDashboard extends AppCompatActivity {
 
         navigationView=findViewById(R.id.navmenuview);
         drawerLayout=findViewById(R.id.ent_drawer_layout);
+        rcv=(RecyclerView)findViewById(R.id.rclview);
+        rcv.setLayoutManager(new LinearLayoutManager(this));
 
 //        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,drawerLayout,R.string.nav_open,R.string.nav_close);
 //        drawerLayout.addDrawerListener(toggle);
