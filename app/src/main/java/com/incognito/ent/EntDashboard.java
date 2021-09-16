@@ -62,7 +62,7 @@ public class EntDashboard extends AppCompatActivity {
             }
         });
 
-        adapter=new myAdapter(dataqueue());
+        adapter=new myAdapter(dataqueue(),getApplicationContext());
         rcv.setAdapter(adapter);
 
 
