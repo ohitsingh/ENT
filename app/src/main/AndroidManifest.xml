@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ENT">
         <activity
-            android:name=".MainActivity2product"
+            android:name=".RestaurentMenuActivity"
             android:exported="true" />
         <activity
             android:name=".EntDashboard"
