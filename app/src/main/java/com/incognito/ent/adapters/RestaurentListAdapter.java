@@ -26,15 +26,14 @@ public class RestaurentListAdapter extends RecyclerView.Adapter<RestaurentListAd
     private List<RestaurentModel> restaurentModelList;
     private RestaurantListClickListener clickListener;
 
-    public RestaurentListAdapter(List<RestaurentModel> restaurentModelList,RestaurantListClickListener clickListener) {
-        this.restaurentModelList=restaurentModelList;
-        this.clickListener = clickListener;
-
+    public RestaurentListAdapter(List<RestaurentModel> restaurentModelList,RestaurantListClickListener clickListener){
+        this.restaurentModelList = restaurentModelList;
+        this.clickListener=clickListener;
     }
-    public void updateData(List<RestaurentModel> restaurentModelList) {
-        this.restaurentModelList=restaurentModelList;
-        notifyDataSetChanged();
 
+    public void updateData(List<RestaurentModel> restaurentModelList){
+        this.restaurentModelList = restaurentModelList;
+        notifyDataSetChanged();
     }
     @NonNull
     @Override
@@ -45,6 +44,7 @@ public class RestaurentListAdapter extends RecyclerView.Adapter<RestaurentListAd
 
     @Override
     public void onBindViewHolder(@NonNull RestaurentListAdapter.MyViewHolder holder, @SuppressLint("RecyclerView") int position) {
+
         holder.restaurentName.setText(restaurentModelList.get(position).getName());
         holder.restaurentAddress.setText("Address: "+restaurentModelList.get(position).getAddress());
         holder.restaurentHours.setText("Today's hours: "+restaurentModelList.get(position).getHours().getTodaysHours());
@@ -65,6 +65,7 @@ public class RestaurentListAdapter extends RecyclerView.Adapter<RestaurentListAd
     @Override
     public int getItemCount() {
         return restaurentModelList.size();
+
     }
 
     static class MyViewHolder extends RecyclerView.ViewHolder{
@@ -79,10 +80,11 @@ public class RestaurentListAdapter extends RecyclerView.Adapter<RestaurentListAd
             restaurentHours=view.findViewById(R.id.restaurentHours);
             thumbImage=view.findViewById(R.id.thumbImage);
 
+
+
+
         }
-
     }
-
     public interface RestaurantListClickListener {
         public void onItemClick(RestaurentModel restaurentModel);
     }

@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ENT">
         <activity
+            android:name=".OrderSucceessActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PlaceYourOrderActivity"
+            android:exported="true" />
+        <activity
             android:name=".RestaurentMenuActivity"
             android:exported="true" />
         <activity
