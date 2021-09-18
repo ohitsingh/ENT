@@ -108,6 +108,7 @@ public class LoginActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("credentials",MODE_PRIVATE);
         if (sharedPreferences.contains("usernmae")){
             startActivity(new Intent(getApplicationContext(),EntDashboard.class));
+
         }else {
 
         }

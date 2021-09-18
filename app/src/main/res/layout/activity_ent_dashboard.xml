@@ -6,13 +6,12 @@
     android:layout_height="match_parent"
     android:id="@+id/ent_drawer_layout"
     tools:ignore="HardcodedText"
-
-
     tools:context=".EntDashboard">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
         android:id="@+id/recViewDash">
 
     </androidx.recyclerview.widget.RecyclerView>

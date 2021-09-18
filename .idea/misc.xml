@@ -3,12 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/drawable/ic_add_circle.xml" value="0.18703703703703703" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/drawable/ic_remove_circle.xml" value="0.14537037037037037" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_ent_dashboard.xml" value="0.2" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_main_activity2product.xml" value="0.19635416666666666" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_order_succeess.xml" value="0.2" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_place_your_order.xml" value="0.1859375" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_restaurent_menu.xml" value="0.1859375" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/menu_recycler_row.xml" value="0.2" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/navheader.xml" value="0.2" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/place_order_recycler_row.xml" value="0.2" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/recycler_row.xml" value="0.2" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/single_row_dashbord.xml" value="0.11851851851851852" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/singlerow.xml" value="0.13333333333333333" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/menu/navigation_menu.xml" value="0.22" />
