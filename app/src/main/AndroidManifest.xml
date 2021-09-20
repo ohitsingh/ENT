@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ENT">
         <activity
+            android:name=".feedback"
+            android:exported="true" />
+        <activity
+            android:name=".support"
+            android:exported="true" />
+        <activity
             android:name=".OrderSucceessActivity"
             android:exported="true" />
         <activity

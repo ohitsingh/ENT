@@ -32,6 +32,11 @@ import java.util.stream.IntStream;
 
 public class EntDashboard extends AppCompatActivity implements RestaurentListAdapter.RestaurantListClickListener {
 
+    public DrawerLayout drawerLayout;
+    public ActionBarDrawerToggle actionBarDrawerToggle;
+    NavigationView navigationView;
+    RecyclerView rcv;
+
 
 
     @Override
@@ -45,6 +50,38 @@ public class EntDashboard extends AppCompatActivity implements RestaurentListAda
 
         List<RestaurentModel> restaurentModelList = getRestaurantData();
         initRecycledView(restaurentModelList);
+
+        navigationView=findViewById(R.id.navmenuview);
+        drawerLayout=findViewById(R.id.ent_drawer_layout);
+        rcv=(RecyclerView)findViewById(R.id.recViewDash);
+        rcv.setLayoutManager(new LinearLayoutManager(this));
+
+        actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,R.string.nav_open,R.string.nav_close);
+        drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()){
+                    case R.id.nav_logout:
+                        Toast.makeText(getApplicationContext(),"you clicked on menu",Toast.LENGTH_LONG).show();
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                    case R.id.nav_support:
+                        Intent myIntent = new Intent(EntDashboard.this, support.class);
+                        EntDashboard.this.startActivity(myIntent);
+
+                    case  R.id.nav_feedback:
+                        Intent intent = new Intent(getApplicationContext(), feedback.class);
+                        startActivity(intent);
+
+
+                }
+                return false;
+            }
+        });
 
     }
 

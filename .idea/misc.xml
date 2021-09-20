@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14537037037037037" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/drawable/ic_add_circle.xml" value="0.18703703703703703" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/drawable/ic_baseline_contact_support_24.xml" value="0.14537037037037037" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/drawable/ic_baseline_feedback_24.xml" value="0.14537037037037037" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/drawable/ic_baseline_perm_contact_calendar_24.xml" value="0.14537037037037037" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/drawable/ic_remove_circle.xml" value="0.14537037037037037" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_ent_dashboard.xml" value="0.2" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_feedback.xml" value="0.1859375" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_main_activity2product.xml" value="0.19635416666666666" />
@@ -13,6 +18,7 @@
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_place_your_order.xml" value="0.1859375" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_restaurent_menu.xml" value="0.1859375" />
+        <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/activity_support.xml" value="0.2" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/menu_recycler_row.xml" value="0.2" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/navheader.xml" value="0.2" />
         <entry key="..\:/flutterapps/ENT/app/src/main/res/layout/place_order_recycler_row.xml" value="0.2" />

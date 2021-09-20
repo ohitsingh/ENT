@@ -27,4 +27,23 @@ public interface apiset {
 
     );
 
+    @FormUrlEncoded
+    @POST("feedback.php")
+    Call<feedback_response_model> getfeedback(
+            @Field("email") String email,
+            @Field("name") String name,
+            @Field("feedback") String feedback
+
+    );
+
+    @FormUrlEncoded
+    @POST("support.php")
+    Call<support_response_model> getsupport(
+            @Field("name") String name,
+            @Field("email") String email,
+            @Field("mobile") String mobile,
+            @Field("query") String query
+
+    );
+
 }
